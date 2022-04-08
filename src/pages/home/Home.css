@@ -1,0 +1,108 @@
+.home {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: aliceblue;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.user__info {
+    height: 50%;
+    width: 100%;
+}
+.update__info {
+    height: 50%;
+    width: 100%;
+    background-color: blueviolet;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.user__info {
+    height: 100%;
+    width: 70%;
+    padding-top: 5rem;
+    position: relative;
+}
+.user__avatarcontainer {
+    width: 30%;
+    height: 100%;
+    padding-top: 6rem;
+    position: relative;
+}
+.user__avatar {
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    right: 0;
+}
+.user__infowrapper {
+    width: 100%;
+    height: 50%;
+
+    text-align: start;
+    /* top:auto; */
+    /* bottom:auto; */
+}
+
+.user__infowrapper > h1 {
+    font-size: 2.7rem;
+    margin: 0;
+}
+
+.user__infowrapper > span {
+    font-size: 1rem;
+    margin: 0;
+}
+
+.upcomming__leaves {
+    display: inline-block;
+}
+
+.user__avatar > span {
+    margin-left: 22%;
+}
+
+@media only screen and (max-width: 780px) {
+    .user__info {
+        padding-top: 6rem;
+    }
+    .user__infowrapper {
+        padding-left: 3rem;
+    }
+    .user__avatarcontainer {
+        padding-top: 6rem;
+    }
+
+    .user__infowrapper > h1 {
+        font-size: 2rem;
+        margin: 0;
+    }
+
+    .user__infowrapper > span {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    .updated__infocontainer > h1 {
+        font-size: 1.5rem;
+        margin: 1rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+}
